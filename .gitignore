@@ -1,0 +1,7 @@
+*.srt
+*.vtt
+*.mp4
+*.mkv
+*.wav
+*.mp3
+__pycache__/

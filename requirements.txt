@@ -1,0 +1,3 @@
+faster-whisper>=1.2
+# PyAV 16+ rompe faster-whisper 1.2.x (metadata_errors)
+av>=11,<16
