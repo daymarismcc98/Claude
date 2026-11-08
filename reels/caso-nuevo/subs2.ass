@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Playfair Display,60,&H00FFFFFF,&H00FFFFFF,&H32000000,&H64000000,-1,0,0,0,100,100,0,0,1,2.4,3,5,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.10,0:00:00.76,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}Te voy a
+Dialogue: 1,0:00:00.76,0:00:01.68,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}mostrar cómo pienso
+Dialogue: 1,0:00:01.68,0:00:02.20,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}cuando me llega
+Dialogue: 1,0:00:02.20,0:00:02.56,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}a un caso
+Dialogue: 1,0:00:02.56,0:00:02.86,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}que no he
+Dialogue: 1,0:00:02.86,0:00:03.74,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}visto antes y
+Dialogue: 1,0:00:03.74,0:00:04.47,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}no he valorado
+Dialogue: 1,0:00:04.47,0:00:05.21,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}Lo primero que
+Dialogue: 1,0:00:05.21,0:00:05.95,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}hago es dejar
+Dialogue: 1,0:00:05.95,0:00:06.69,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}de pensar en
+Dialogue: 1,0:00:06.69,0:00:07.41,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}la técnica
+Dialogue: 1,0:00:07.41,0:00:08.45,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}Primero quiero entender
+Dialogue: 1,0:00:08.45,0:00:09.37,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}el problema
+Dialogue: 1,0:00:09.37,0:00:09.81,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}¿Qué tiene esta
+Dialogue: 1,0:00:09.81,0:00:10.59,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}persona?
+Dialogue: 1,0:00:10.59,0:00:11.89,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}¿Qué puedo modificar?
+Dialogue: 1,0:00:11.89,0:00:12.57,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}¿Qué no puedo
+Dialogue: 1,0:00:12.57,0:00:13.53,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}modificar?
+Dialogue: 1,0:00:13.53,0:00:14.23,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}¿Y qué resultado
+Dialogue: 1,0:00:14.23,0:00:15.41,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}sería realista según
+Dialogue: 1,0:00:15.41,0:00:15.83,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}lo que esta
+Dialogue: 1,0:00:15.83,0:00:16.47,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}persona me está
+Dialogue: 1,0:00:16.47,0:00:17.11,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}pidiendo?
+Dialogue: 1,0:00:17.11,0:00:17.65,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}Y después de
+Dialogue: 1,0:00:17.65,0:00:18.69,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}eso decido cómo
+Dialogue: 1,0:00:18.69,0:00:19.41,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}trabajar
+Dialogue: 1,0:00:19.41,0:00:19.91,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}Por ejemplo
+Dialogue: 1,0:00:19.91,0:00:20.71,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}este cliente quiere
+Dialogue: 1,0:00:20.71,0:00:21.61,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}realizarse una ceja
+Dialogue: 1,0:00:21.61,0:00:22.49,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}pelo a pelo pero tiene
+Dialogue: 1,0:00:22.49,0:00:23.51,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}un procedimiento anterior
+Dialogue: 1,0:00:23.51,0:00:25.19,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}mal realizado de
+Dialogue: 1,0:00:25.19,0:00:26.01,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}otro sitio
+Dialogue: 1,0:00:26.01,0:00:26.81,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}Aquí no podría
+Dialogue: 1,0:00:26.81,0:00:27.57,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}trabajar la técnica
+Dialogue: 1,0:00:27.57,0:00:28.05,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}que ella me
+Dialogue: 1,0:00:28.05,0:00:29.49,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}está pidiendo porque
+Dialogue: 1,0:00:29.49,0:00:30.39,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}tiene manchas en
+Dialogue: 1,0:00:30.39,0:00:31.05,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}sus cejas
+Dialogue: 1,0:00:31.05,0:00:31.39,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}Entonces
+Dialogue: 1,0:00:31.39,0:00:31.95,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}en este caso
+Dialogue: 1,0:00:31.95,0:00:32.31,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}si yo quiero
+Dialogue: 1,0:00:32.31,0:00:33.17,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}lograr un resultado
+Dialogue: 1,0:00:33.17,0:00:33.75,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}realista
+Dialogue: 1,0:00:33.75,0:00:34.33,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}yo tendría que
+Dialogue: 1,0:00:34.33,0:00:35.10,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}remover
+Dialogue: 1,0:00:35.10,0:00:35.66,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}Antes de pensar
+Dialogue: 1,0:00:35.66,0:00:36.72,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}en cualquier técnica
+Dialogue: 1,0:00:36.72,0:00:37.96,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}primero pienso en
+Dialogue: 1,0:00:37.96,0:00:38.94,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}cómo puedo solucionar
+Dialogue: 1,0:00:38.94,0:00:39.90,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}este problema a
+Dialogue: 1,0:00:39.90,0:00:40.70,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}largo plazo
+Dialogue: 1,0:00:40.70,0:00:41.22,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}No es nada
+Dialogue: 1,0:00:41.22,0:00:42.36,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}más en el
+Dialogue: 1,0:00:42.36,0:00:42.78,Cap,,0,0,0,,{\pos(540,935)\fscx90\fscy90\t(0,90,\fscx100\fscy100)}momento
