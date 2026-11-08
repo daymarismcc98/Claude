@@ -18,3 +18,7 @@ Fotos adicionales en la versión 2 (Unsplash License):
 - Linh Ha - https://unsplash.com/photos/a-close-up-of-a-womans-eye-with-makeup-nt6KRD9im7A
 - Judy Beth Morris - https://unsplash.com/photos/gloved-hands-work-on-an-eye-with-cosmetic-markings-vKKO2MXBVOk
 - Bermix Studio - https://unsplash.com/photos/a-woman-getting-her-eyebrows-done-by-a-professional-hair-stylist-CqEGy4zAmbI
+
+Versión 3 (HyperFrames): efectos de sonido de Pixabay (Pixabay Content License), incluidos con HyperFrames.
+Tipografías: Playfair Display, Cormorant Garamond, Montserrat (SIL Open Font License).
+Para volver a renderizar: `python3 gen3.py` (regenera assets/talk.mp4 desde el video original) y `npx hyperframes render`.
