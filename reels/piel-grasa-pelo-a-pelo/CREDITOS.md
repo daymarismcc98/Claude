@@ -7,7 +7,7 @@ Fotos de apoyo (Unsplash License, uso libre):
 - Wilhelm Gunkel - https://unsplash.com/photos/close-up-of-sweaty-skin-with-water-droplets-QGDGKta9HnE
 - Alena Plotnikova - https://unsplash.com/photos/a-woman-getting-her-makeup-done-by-another-woman-H3bUio5s0g0
 - Chalo Garcia - https://unsplash.com/photos/women-at-table-with-beauty-workshop-RiuOVOtoOVQ
-- Mohamed Marey, Zoe Denney-Goodyer, Stefan Vibes, melvin Ankrah, Veronika Veronikamaks, Luwadlin Bosman (ver reels/caso-nuevo/CREDITOS.md)
+- Mohamed Marey, Zoe Denney-Goodyer, melvin Ankrah, Victor Sirbu, Veronika Veronikamaks, Luwadlin Bosman (enlaces en reels/caso-nuevo/CREDITOS.md)
 
 Efectos de sonido: Pixabay (Pixabay Content License), incluidos con HyperFrames.
 Tipografías: Playfair Display, Cormorant Garamond, Montserrat (SIL Open Font License).
