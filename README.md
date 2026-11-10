@@ -6,12 +6,20 @@ OpenAI optimizado; funciona bien en CPU) y FFmpeg.
 
 ## Instalación
 
+Instala FFmpeg, faster-whisper, [yt-dlp](https://github.com/yt-dlp/yt-dlp) y
+[HyperFrames](https://github.com/heygen-com/hyperframes) (HTML → vídeo, requiere Node.js 22+).
+
 ```bash
-./instalar.sh
+./instalar.sh                                               # Linux / macOS
+powershell -ExecutionPolicy Bypass -File .\instalar.ps1     # Windows
 ```
 
-Instala FFmpeg (apt/dnf/pacman/brew) si falta, junto con las dependencias de Python.
-En Windows: `winget install Gyan.FFmpeg` y luego `pip install -r requirements.txt`.
+### Descargar un vídeo y subtitularlo
+
+```bash
+python3 -m yt_dlp -f mp4 -o video.mp4 "URL"
+python3 subtitular.py video.mp4 --quemar
+```
 
 ## Uso
 
