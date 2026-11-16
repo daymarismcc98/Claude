@@ -18,3 +18,4 @@ Tipografías: Playfair Display, Cormorant Garamond, Montserrat (SIL Open Font Li
 - Voz en off: Piper TTS, voz es_MX-claude-high (español de México, femenina, licencia Apache-2.0), generada en local.
 - Dibujos: trazados a mano en SVG. Tipografías Caveat y Montserrat (SIL Open Font License).
 - Sonidos: whoosh, pop y sparkle de Pixabay (incluidos con HyperFrames); sonido de marcador generado.
+- Versión con voz real (story_pigmentos_draw_my_life_voz_real.mp4): voz de la formadora, limpiada y sincronizada por escenas.
