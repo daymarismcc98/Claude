@@ -1,0 +1,16 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Big,Montserrat Thin ExtraBold,118,&H00FFFFFF,&H00FFFFFF,&H00101418,&H64000000,0,0,0,0,100,100,0,0,1,6,4,8,50,50,270,1
+Style: Mid,Montserrat Thin ExtraBold,100,&H00FFFFFF,&H00FFFFFF,&H00101418,&H64000000,0,0,0,0,100,100,0,0,1,5.5,4,8,50,50,270,1
+Style: Pill,Montserrat Thin ExtraBold,150,&H00101418,&H00FFFFFF,&H006AA8E0,&H006AA8E0,0,0,0,0,100,100,6,0,3,22,0,5,0,0,0,1
+Style: Hand,Caveat,104,&H00FFFFFF,&H00FFFFFF,&H00101418,&H64000000,-1,0,0,0,100,100,0,0,1,4,3,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:02.60,Big,,0,0,0,,{\fad(0,120)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}Antes de comprar\Nun pigmento,\N{\c&H6AA8E0&}revisa esto

@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Big,Montserrat Thin ExtraBold,118,&H00FFFFFF,&H00FFFFFF,&H00101418,&H64000000,0,0,0,0,100,100,0,0,1,6,4,8,50,50,270,1
+Style: Mid,Montserrat Thin ExtraBold,100,&H00FFFFFF,&H00FFFFFF,&H00101418,&H64000000,0,0,0,0,100,100,0,0,1,5.5,4,8,50,50,270,1
+Style: Pill,Montserrat Thin ExtraBold,150,&H00101418,&H00FFFFFF,&H006AA8E0,&H006AA8E0,0,0,0,0,100,100,6,0,3,22,0,5,0,0,0,1
+Style: Hand,Caveat,104,&H00FFFFFF,&H00FFFFFF,&H00101418,&H64000000,-1,0,0,0,100,100,0,0,1,4,3,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.08,0:00:02.85,Mid,,0,0,0,,{\fad(80,80)}Esto y mucho más\Nlo enseño en mi curso\N{\c&H6AA8E0&}TRUE BROWS
+Dialogue: 1,0:00:02.87,0:00:06.05,Mid,,0,0,0,,{\fad(80,0)}Comenta
+Dialogue: 2,0:00:03.15,0:00:06.05,Pill,,0,0,0,,{\pos(540,640)\fad(60,0)\fscx40\fscy40\t(0,220,\fscx108\fscy108)\t(220,340,\fscx100\fscy100)}GUÍA
+Dialogue: 1,0:00:03.90,0:00:06.05,Hand,,0,0,0,,{\pos(540,860)\fad(120,0)}y te dejo toda la información
