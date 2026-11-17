@@ -5,6 +5,7 @@ S = os.path.dirname(H)
 SRC = f"{H}/c1.mp4"
 DRAW = f"{S}/reel_v8_ig.mp4"
 WHOOSH = f"{S}/hf/package/dist/skills/media-use/audio/assets/sfx/whoosh-short.mp3"
+DRAW_AUDIO = f"{H}/draw_audio.wav"
 DRAW_END, DRAW_VO_CUT = 13.45, 12.97
 CLOSE = (57.65, 62.90)
 HOLD = 0.8
@@ -55,17 +56,17 @@ def build(ver):
         f"[0:v]trim={h0}:{h1},setpts=PTS-STARTPTS,{face},ass={H}/hook{ver}.ass:fontsdir={fd}[v0]",
         f"[0:a]atrim={h0}:{h1},asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st={hd - 0.04:.2f}:d=0.04,aresample=48000,aformat=channel_layouts=stereo[a0]",
         f"[1:v]trim=0:{DRAW_END},setpts=PTS-STARTPTS,fps=30,setsar=1[v1]",
-        f"[1:a]atrim=0:{DRAW_END},asetpts=PTS-STARTPTS,volume=volume=0:enable='gt(t,{DRAW_VO_CUT})',aresample=48000,aformat=channel_layouts=stereo[a1]",
+        f"[3:a]atrim=0:{DRAW_END},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo[a1]",
         f"[0:v]trim={CLOSE[0]}:{CLOSE[1]},setpts=PTS-STARTPTS,{face},tpad=stop_mode=clone:stop_duration={HOLD},ass={H}/close.ass:fontsdir={fd}[v2]",
         f"[0:a]atrim={CLOSE[0]}:{CLOSE[1]},asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st={CLOSE[1] - CLOSE[0] - 0.06:.2f}:d=0.06,apad=pad_dur={HOLD},aresample=48000,aformat=channel_layouts=stereo[a2]",
         "[v0][a0][v1][a1][v2][a2]concat=n=3:v=1:a=1[vc][ac]",
-        f"[2:a]adelay={int((hd - 0.12) * 1000)}|{int((hd - 0.12) * 1000)},volume=0.35[w1]",
-        f"[2:a]adelay={int((hd + DRAW_END - 0.12) * 1000)}|{int((hd + DRAW_END - 0.12) * 1000)},volume=0.30[w2]",
+        f"[2:a]adelay={int((hd - 0.12) * 1000)}|{int((hd - 0.12) * 1000)},volume=0.12[w1]",
+        f"[2:a]adelay={int((hd + DRAW_END - 0.12) * 1000)}|{int((hd + DRAW_END - 0.12) * 1000)},volume=0.10[w2]",
         "[ac][w1][w2]amix=inputs=3:normalize=0:duration=first,highpass=f=70,loudnorm=I=-14:TP=-1.5:LRA=9,aresample=48000[ao]",
         "[vc]format=yuv420p[vo]",
     ]
     out = f"{H}/reel_true_brows_{ver}.mp4"
-    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", SRC, "-i", DRAW, "-i", WHOOSH, "-filter_complex", ";".join(f),
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", SRC, "-i", DRAW, "-i", WHOOSH, "-i", DRAW_AUDIO, "-filter_complex", ";".join(f),
                     "-map", "[vo]", "-map", "[ao]", "-c:v", "libx264", "-crf", "18", "-preset", "slow",
                     "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out], check=True)
     print(ver, out, "hook", round(hd, 2), "total", round(hd + DRAW_END + CLOSE[1] - CLOSE[0] + HOLD, 2))
